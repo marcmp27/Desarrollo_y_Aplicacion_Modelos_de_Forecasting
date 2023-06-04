@@ -823,7 +823,7 @@ Funcion_Accuracy_Predicciones_Historicas(BBDD_TY10,TY10_Time_Series, TY10_difere
 SISTEMA DE INVERSIÓN CON FRECUENCIA DE DATOS DIARIA
 ###########################################################################
 
-Por problemáticas con ciertos paquetes y su ejecución dentro de funciones, se ha tenido que realizar el código sin pasar por función para cada activo. 
+Por problemáticas con ciertos paquetes y su ejecución dentro de funciones, se ha tenido que realizar el código sin pasar por función para cada activo. Por lo tanto, el código que viene a continuación es el mismo código, para los 9 activos y para las tres temporalidades 27 repeticiones), modificando en cada caso las bases de datos utilizada. 
 
 ```{r}
 library(quantmod)
@@ -831,9 +831,9 @@ library(lattice)
 library(timeSeries)
 library(rugarch)
 
-#arima garch sempre sera vermell
-#tbats sempre sera blau
-#Holt sempre sera verd 
+#arima garch siempre será rojo
+#tbats siempre será azul
+#Holt siempre será verde
 ```
 
 ###########################################################################
